@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "verifying Amazon Search product",
+        "description": "",
+        "id": "verify-amazon-order-booking;verifying-amazon-search-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "user is on the same product",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user should search product",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "TV",
+                  "Sony"
+                ]
+              },
+              {
+                "cells": [
+                  "phone",
+                  "Iphone 12"
+                ]
+              },
+              {
+                "cells": [
+                  "Laptop",
+                  "Lenovo"
+                ]
+              },
+              {
+                "cells": [
+                  "Shirts",
+                  "Basics shirts"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user should verify all product listed succefully",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verify Amazon order booking",
+    "description": "",
+    "id": "verify-amazon-order-booking",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/1DwithHeader.feature",
+    "tags": []
+  }
+]
