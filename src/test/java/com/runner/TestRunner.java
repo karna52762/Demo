@@ -11,5 +11,11 @@ import cucumber.api.junit.Cucumber;
 "json:src\\test\\resources\\Reports\\Reporting.json" }, dryRun = true, strict = true,snippets=SnippetType.CAMELCASE)
 public class TestRunner {
 	
+	private void firt() {
+		System.out.println("https://github.com/karna52762/Demo.git");
+		System.out.println("https://github.com/karna52762/Demo.git");
+		System.out.println("https://github.com/karna52762/Demo.git");
+
+	}
 
 }
