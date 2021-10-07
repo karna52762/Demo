@@ -11,5 +11,9 @@ import cucumber.api.junit.Cucumber;
 "json:src\\test\\resources\\Reports\\Reporting.json" }, dryRun = true, strict = true,snippets=SnippetType.CAMELCASE)
 public class TestRunner {
 	
-
+private void funs() {
+	System.out.println("test");
+	System.out.println("test");
+	System.out.println("test");
+}
 }
